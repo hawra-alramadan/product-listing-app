@@ -1,14 +1,54 @@
-# React + Vite
+# Product Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Product Listing application that fetches product data from an API and displays it in a responsive, interactive grid format. The app allows users to view product details, including price, discount, and rating. Users can also select products, and their selections are visually highlighted.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches product data from an API (DummyJSON API).
+- Displays product details including image, price, discount, and rating.
+- Users can select multiple products.
+- Responsive grid layout with modern hover effects and animations.
+- Interactive UI with smooth hover and selection effects.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# product-listing-app
-# product-listing-app
+- **React**: For building the user interface.
+- **React Bootstrap**: For responsive grid layout and UI components.
+- **Axios**: For fetching data from the API.
+- **CSS**: For styling the components.
+
+## Installation
+
+To run this app locally, follow the steps below:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/product-listing-app.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd product-listing-app
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the app:
+    ```bash
+    npm start
+    ```
+
+The app will run on [http://localhost:3000](http://localhost:3000).
+
+## Deployment
+
+You can view the live version of the app here:
+
+[Product Listing App](https://products-list-sda.netlify.app/)
+
+## License
+
+This project is licensed under the MIT License.
