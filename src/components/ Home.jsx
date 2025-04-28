@@ -9,7 +9,7 @@ import {
   Form,
   Button,
 } from "react-bootstrap";
-import ProductCard from "./components/ProductCard";
+import ProductCard from "./ProductCard";
 
 function Home() {
   const [products, setProducts] = useState([]);

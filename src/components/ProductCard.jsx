@@ -12,13 +12,12 @@ const ProductCard = ({ product, isSelected, toggleSelect }) => {
     >
       <Card.Img
         variant="top"
-        src={product.thumbnail}
+        src={product.images}
         style={{ height: "200px", objectFit: "cover" }}
       />
       <Card.Body>
         <Card.Title>{product.title}</Card.Title>
         <Card.Text>
-          {/* Show the discounted price and original price with strike-through */}
           {product.discountPercentage ? (
             <div>
               <span
