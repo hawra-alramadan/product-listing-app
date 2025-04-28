@@ -54,7 +54,7 @@ body {
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  min-height: 400px;
+  min-height: 450px;
   width: 100%;
   max-width: 320px;
   display: flex;
@@ -86,7 +86,7 @@ body {
 }
 
 .product-card .card-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 10px;
